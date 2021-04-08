@@ -12,11 +12,13 @@ class HomePage extends StatelessWidget {
         title: Lang.titleHome,
         body: ListView(
           children: [
-            ListTile(
-              title: NormalText(Lang.itemRouteManagement, selectable: false,),
-              onTap: () => Get.toNamed(Details),
-            ),
+            buildListTitle(Lang.itemRouteManagement, Details),
           ],
         ));
   }
+
+  ListTile buildListTitle(String text, String namedRoute) => ListTile(
+    title: NormalText(text, selectable: false,),
+    onTap: () => Get.toNamed(namedRoute),
+  );
 }
