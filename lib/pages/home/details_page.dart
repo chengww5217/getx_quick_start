@@ -3,12 +3,13 @@ import 'package:getx_quick_start/common/components/code_widget.dart';
 import 'package:getx_quick_start/common/components/page_common.dart';
 import 'package:getx_quick_start/common/components/text_widget.dart';
 import 'package:getx_quick_start/common/lang/index.dart';
+import 'package:get/get.dart';
 
 class DetailsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return buildScaffold(
-        title: Lang.titleDetails,
+        title: Lang.titleDetails.tr,
         body: SingleChildScrollView(
           child: SafeArea(
             child: Padding(
@@ -16,7 +17,7 @@ class DetailsPage extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  NormalText(Lang.routeManagementLine1),
+                  NormalText(Lang.routeManagementLine1.tr),
                   CodeWidget(
                     children: [
                       // "GetMaterialApp( // Before: MaterialApp(\n    home: MyHome(),\n)"
@@ -29,7 +30,7 @@ class DetailsPage extends StatelessWidget {
                       TextSpan(text: "(),\n)")
                     ],
                   ),
-                  NormalText(Lang.routeManagementLine2),
+                  NormalText(Lang.routeManagementLine2.tr),
                   CodeWidget(
                     children: [
                       // Get.to(NextScreen());
@@ -42,7 +43,7 @@ class DetailsPage extends StatelessWidget {
                     ],
                   ),
                   NormalText(
-                      Lang.routeManagementLine3),
+                      Lang.routeManagementLine3.tr),
                   CodeWidget(
                     children: [
                       // Get.toNamed('/details');
@@ -52,7 +53,7 @@ class DetailsPage extends StatelessWidget {
                       TextSpan(text: "('/details');"),
                     ],
                   ),
-                  NormalText(Lang.routeManagementLine4),
+                  NormalText(Lang.routeManagementLine4.tr),
                   CodeWidget(
                     children: [
                       // Get.toNamed('/details');
@@ -62,7 +63,7 @@ class DetailsPage extends StatelessWidget {
                       TextSpan(text: "();"),
                     ],
                   ),
-                  NormalText(Lang.routeManagementLine5),
+                  NormalText(Lang.routeManagementLine5.tr),
                   CodeWidget(
                     children: [
                       // Get.toNamed('/details');
@@ -74,7 +75,7 @@ class DetailsPage extends StatelessWidget {
                       TextSpan(text: "());"),
                     ],
                   ),
-                  NormalText(Lang.routeManagementLine6)
+                  NormalText(Lang.routeManagementLine6.tr)
                 ],
               ),
             ),

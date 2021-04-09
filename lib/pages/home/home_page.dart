@@ -9,10 +9,11 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return buildScaffold(
-        title: Lang.titleHome,
+        title: Lang.titleHome.tr,
         body: ListView(
           children: [
-            buildListTitle(Lang.itemRouteManagement, Details),
+            buildListTitle(Lang.itemRouteManagement.tr, Details),
+            buildListTitle(Lang.titleLanguages.tr, Languages)
           ],
         ));
   }
