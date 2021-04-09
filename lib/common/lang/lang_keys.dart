@@ -1,3 +1,5 @@
+part of 'translation_service.dart';
+
 abstract class Lang {
   static const appName = 'appName';
   static const titleHome = "titleHome";
@@ -13,4 +15,5 @@ abstract class Lang {
   static const titleLanguagesAuto = "titleLanguagesAuto";
   static const titleLanguagesENUS = "titleLanguagesENUS";
   static const titleLanguagesZHCN = "titleLanguagesZHCN";
+  static const titleLanguagesZHTW = "titleLanguagesZHTW";
 }

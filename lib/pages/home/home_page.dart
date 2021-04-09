@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx_quick_start/common/components/page_common.dart';
 import 'package:getx_quick_start/common/components/text_widget.dart';
-import 'package:getx_quick_start/common/lang/index.dart';
 import 'package:getx_quick_start/common/routes/app_pages.dart';
+import 'package:getx_quick_start/common/lang/translation_service.dart';
 
 class HomePage extends StatelessWidget {
   @override

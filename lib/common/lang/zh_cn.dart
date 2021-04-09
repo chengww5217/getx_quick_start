@@ -1,5 +1,7 @@
 part of "translation_service.dart";
 
+final langZHCN = LocaleConfig(() => Lang.titleLanguagesZHCN.tr, Locale("zh_CN"));
+
 const Map<String, String> zh_CN = {
   Lang.appName: 'Getx 快速上手',
   Lang.titleHome: '首页',
@@ -19,4 +21,5 @@ const Map<String, String> zh_CN = {
   Lang.titleLanguagesAuto: '跟随系统(@language)',
   Lang.titleLanguagesENUS: 'English, US',
   Lang.titleLanguagesZHCN: '中文, 中国',
+  Lang.titleLanguagesZHTW: '中文, 中國臺灣',
 };

@@ -1,5 +1,7 @@
 part of "translation_service.dart";
 
+final langENUS = LocaleConfig(() => Lang.titleLanguagesENUS.tr, Locale("en_US"));
+
 const Map<String, String> en_US = {
   Lang.appName: 'Getx quick start',
   Lang.titleHome: 'Home Page',
@@ -15,4 +17,5 @@ const Map<String, String> en_US = {
   Lang.titleLanguagesAuto: 'Follow System(@language)',
   Lang.titleLanguagesENUS: 'English, US',
   Lang.titleLanguagesZHCN: '中文, 中国',
+  Lang.titleLanguagesZHTW: '中文, 中國臺灣',
 };

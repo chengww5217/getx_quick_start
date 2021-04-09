@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:getx_quick_start/common/components/code_widget.dart';
 import 'package:getx_quick_start/common/components/page_common.dart';
 import 'package:getx_quick_start/common/components/text_widget.dart';
-import 'package:getx_quick_start/common/lang/index.dart';
+import 'package:getx_quick_start/common/lang/translation_service.dart';
 import 'package:get/get.dart';
 
 class DetailsPage extends StatelessWidget {

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_quick_start/common/lang/index.dart';
 import 'package:getx_quick_start/common/routes/app_pages.dart';
 import './common/lang/translation_service.dart';
 
 void main() {
   runApp(MyApp());
+  getLangSelected().then((value) => Get.updateLocale(allSupportLocales[value].locale));
 }
 
 class MyApp extends StatelessWidget {
