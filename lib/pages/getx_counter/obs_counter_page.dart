@@ -9,9 +9,21 @@ class ObsCounterPage extends GetView<GetxCounterController> {
   Widget build(BuildContext context) {
     return buildScaffold(
         title: Lang.titleObsCounter.tr,
-        body: Center(
-          child: Obx(() => Text(Lang.contentGetxCounterPressed
-              .trParams({"counter": "${controller.counterObs}"}))),
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Obx(() => Container(
+              width: Get.width,
+              alignment: Alignment.center,
+              margin: EdgeInsets.symmetric(vertical: 18),
+              child: Text(Lang.contentGetxCounterPressed
+                  .trParams({"counter": "${controller.counterObs}"})),
+            )),
+            ElevatedButton(
+              onPressed: Get.back,
+              child: Text(Lang.titleGetxCounter.tr),
+            )
+          ],
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: controller.increment,
