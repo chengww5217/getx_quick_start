@@ -2,7 +2,7 @@ import 'package:get/get.dart';
 
 class GetxCounterController extends GetxController {
   var _counter = 0;
-  int get counter => _counter;
+  int get counter => counterObs?.value ?? 0;
   RxInt counterObs;
 
   @override
@@ -11,7 +11,7 @@ class GetxCounterController extends GetxController {
     super.onInit();
   }
   void increment() {
-    _counter++;
+    counterObs.value ++;
     update();
   }
 }
