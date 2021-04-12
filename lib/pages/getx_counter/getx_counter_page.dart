@@ -19,8 +19,12 @@ class GetxCounterPage extends StatelessWidget {
                 builder: (controller) => Text(Lang.contentGetxCounterPressed
                     .trParams({"counter": controller.counter.toString()})),
               ),
-              SizedBox(height: 18,),
-              TextButton(onPressed: () => Get.toNamed(ObsCounter), child: Text(Lang.titleObsCounter.tr))
+              SizedBox(
+                height: 18,
+              ),
+              TextButton(
+                  onPressed: () => Get.toNamed(ObsCounter),
+                  child: Text(Lang.titleObsCounter.tr))
             ],
           ),
         ),

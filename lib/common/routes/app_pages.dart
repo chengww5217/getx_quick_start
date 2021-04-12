@@ -11,7 +11,8 @@ part 'app_routes.dart';
 class AppPages {
   static const INITIAL = Home;
 
-  static final notFoundPage = GetPage(name: NotFound, page: () => NotFoundPage());
+  static final notFoundPage =
+      GetPage(name: NotFound, page: () => NotFoundPage());
   static final routes = [
     GetPage(name: Home, page: () => HomePage()),
     GetPage(name: Details, page: () => DetailsPage()),

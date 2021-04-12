@@ -1,6 +1,7 @@
 part of "translation_service.dart";
 
-final langZHCN = LocaleConfig(() => Lang.titleLanguagesZHCN.tr, Locale("zh_CN"));
+final langZHCN =
+    LocaleConfig(() => Lang.titleLanguagesZHCN.tr, Locale("zh_CN"));
 
 const Map<String, String> zh_CN = {
   Lang.appName: 'Getx 快速上手',
