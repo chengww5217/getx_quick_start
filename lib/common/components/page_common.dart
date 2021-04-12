@@ -5,7 +5,9 @@ AppBar buildAppBar(String title) => AppBar(
       brightness: Brightness.dark,
     );
 
-Scaffold buildScaffold({String title, Widget body}) => Scaffold(
-      appBar: title == null ? null : buildAppBar(title),
-      body: body,
-    );
+Scaffold buildScaffold(
+        {String title, Widget body, Widget floatingActionButton}) =>
+    Scaffold(
+        appBar: title == null ? null : buildAppBar(title),
+        body: body,
+        floatingActionButton: floatingActionButton);

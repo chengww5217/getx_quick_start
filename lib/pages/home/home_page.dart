@@ -13,7 +13,8 @@ class HomePage extends StatelessWidget {
         body: ListView(
           children: [
             buildListTitle(Lang.itemRouteManagement.tr, Details),
-            buildListTitle(Lang.titleLanguages.tr, Languages)
+            buildListTitle(Lang.titleLanguages.tr, Languages),
+            buildListTitle(Lang.titleGetxCounter.tr, GetxCounter)
           ],
         ));
   }

@@ -16,4 +16,6 @@ abstract class Lang {
   static const titleLanguagesENUS = "titleLanguagesENUS";
   static const titleLanguagesZHCN = "titleLanguagesZHCN";
   static const titleLanguagesZHTW = "titleLanguagesZHTW";
+  static const titleGetxCounter = "titleGetxCounter";
+  static const contentGetxCounterPressed = "contentGetxCounterPressed";
 }

@@ -18,4 +18,6 @@ const Map<String, String> en_US = {
   Lang.titleLanguagesENUS: 'English, US',
   Lang.titleLanguagesZHCN: '中文, 中国',
   Lang.titleLanguagesZHTW: '中文, 中國臺灣',
+  Lang.titleGetxCounter: 'Getx Counter Page',
+  Lang.contentGetxCounterPressed: 'You have pressed @counter times',
 };
