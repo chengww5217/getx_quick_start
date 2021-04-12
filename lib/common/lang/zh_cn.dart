@@ -26,4 +26,8 @@ const Map<String, String> zh_CN = {
   Lang.titleGetxCounter: 'Getx 计数器',
   Lang.contentGetxCounterPressed: '你点击了 @counter 次',
   Lang.titleObsCounter: 'Obs 计数器',
+  Lang.titleThemes: '主题切换',
+  Lang.titleThemesAuto: '跟随系统(@theme)',
+  Lang.titleThemesLight: '浅色主题',
+  Lang.titleThemesDark: '深色主题',
 };

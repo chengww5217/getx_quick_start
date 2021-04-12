@@ -21,4 +21,8 @@ const Map<String, String> en_US = {
   Lang.titleGetxCounter: 'Getx Counter Page',
   Lang.contentGetxCounterPressed: 'You have pressed @counter times',
   Lang.titleObsCounter: 'Obs Counter Page',
+  Lang.titleThemes: 'Themes Switch',
+  Lang.titleThemesAuto: 'Follow System(@theme)',
+  Lang.titleThemesLight: 'Light Theme',
+  Lang.titleThemesDark: 'Dark Theme',
 };

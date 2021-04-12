@@ -19,4 +19,9 @@ abstract class Lang {
   static const titleGetxCounter = "titleGetxCounter";
   static const contentGetxCounterPressed = "contentGetxCounterPressed";
   static const titleObsCounter = "titleObsCounter";
+  static const titleThemes = "titleThemes";
+  static const titleThemesAuto = "titleThemesAuto";
+  static const titleThemesLight = "titleThemesLight";
+  static const titleThemesDark = "titleThemesDark";
+
 }

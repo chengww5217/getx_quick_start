@@ -14,6 +14,7 @@ class HomePage extends StatelessWidget {
           children: [
             buildListTitle(Lang.itemRouteManagement.tr, Details),
             buildListTitle(Lang.titleGetxCounter.tr, GetxCounter),
+            buildListTitle(Lang.titleThemes.tr, Themes),
             buildListTitle(Lang.titleLanguages.tr, Languages),
           ],
         ));

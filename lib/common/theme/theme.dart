@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 
 abstract class LightTheme {
   static const bodyFontSize = 18.0;
-  static const bodyTextColor = Colors.black;
   static const bodyTextStyle = TextStyle(
-      color: bodyTextColor,
       fontSize: bodyFontSize,
       fontWeight: FontWeight.normal);
 

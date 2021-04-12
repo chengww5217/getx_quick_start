@@ -3,8 +3,9 @@ import 'package:getx_quick_start/pages/getx_counter/getx_counter_page.dart';
 import 'package:getx_quick_start/pages/getx_counter/obs_counter_page.dart';
 import 'package:getx_quick_start/pages/home/details_page.dart';
 import 'package:getx_quick_start/pages/home/home_page.dart';
+import 'package:getx_quick_start/pages/languages/languages_page.dart';
 import 'package:getx_quick_start/pages/not_found/not_found_page.dart';
-import 'package:getx_quick_start/pages/settings/languages_page.dart';
+import 'package:getx_quick_start/pages/themes/themes_page.dart';
 
 part 'app_routes.dart';
 
@@ -19,6 +20,7 @@ class AppPages {
     GetPage(name: Languages, page: () => LanguagesPage()),
     GetPage(name: GetxCounter, page: () => GetxCounterPage()),
     GetPage(name: ObsCounter, page: () => ObsCounterPage()),
+    GetPage(name: Themes, page: () => ThemesPage()),
     notFoundPage,
   ];
 }
