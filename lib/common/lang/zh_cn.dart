@@ -24,4 +24,5 @@ const Map<String, String> zh_CN = {
   Lang.titleLanguagesZHTW: '中文, 中國臺灣',
   Lang.titleGetxCounter: 'Getx 计数器',
   Lang.contentGetxCounterPressed: '你点击了 @counter 次',
+  Lang.titleObsCounter: 'Obs 计数器',
 };

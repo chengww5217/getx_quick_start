@@ -18,4 +18,5 @@ abstract class Lang {
   static const titleLanguagesZHTW = "titleLanguagesZHTW";
   static const titleGetxCounter = "titleGetxCounter";
   static const contentGetxCounterPressed = "contentGetxCounterPressed";
+  static const titleObsCounter = "titleObsCounter";
 }

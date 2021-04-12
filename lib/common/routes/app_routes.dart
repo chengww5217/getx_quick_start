@@ -5,6 +5,7 @@ const Details = "/details";
 
 const Languages = "/languages";
 
-const GetxCounter = "/getx_counter";
+const GetxCounter = "/counter/getx";
+const ObsCounter = "/counter/obs";
 
 const NotFound = "/404";

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:getx_quick_start/common/components/page_common.dart';
 import 'package:getx_quick_start/common/lang/translation_service.dart';
 import 'package:get/get.dart';
+import 'package:getx_quick_start/common/routes/app_pages.dart';
 import 'package:getx_quick_start/pages/getx_counter/counter_controller.dart';
 
 class GetxCounterPage extends StatelessWidget {
@@ -11,7 +12,6 @@ class GetxCounterPage extends StatelessWidget {
         title: Lang.titleGetxCounter.tr,
         body: Center(
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               GetBuilder<GetxCounterController>(
@@ -20,7 +20,7 @@ class GetxCounterPage extends StatelessWidget {
                     .trParams({"counter": controller.counter.toString()})),
               ),
               SizedBox(height: 18,),
-              TextButton(onPressed: () {}, child: Text("Obs Counter"))
+              TextButton(onPressed: () => Get.toNamed(ObsCounter), child: Text(Lang.titleObsCounter.tr))
             ],
           ),
         ),

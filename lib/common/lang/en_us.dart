@@ -20,4 +20,5 @@ const Map<String, String> en_US = {
   Lang.titleLanguagesZHTW: '中文, 中國臺灣',
   Lang.titleGetxCounter: 'Getx Counter Page',
   Lang.contentGetxCounterPressed: 'You have pressed @counter times',
+  Lang.titleObsCounter: 'Obs Counter Page',
 };
